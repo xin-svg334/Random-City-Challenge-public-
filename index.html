@@ -4,7 +4,7 @@ Random Taiwan City Challenge,  holidays going on !
 <html lang="zh-TW">
 <head>
     <meta charset="UTF-8">
-    <title>Roll 地方工具</title>
+    <title>來隨機選定要去哪裡吧!(除了雙北外島)</title>
     <style>
         body { font-family: sans-serif; text-align: center; background: #f4f4f9; padding-top: 50px; }
         .container { background: white; width: 300px; margin: auto; padding: 20px; border-radius: 15px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); }
@@ -15,14 +15,14 @@ Random Taiwan City Challenge,  holidays going on !
 </head>
 <body>
     <div class="container">
-        <h2>今天去哪裡？</h2>
+        <h2>旅行準備中!</h2>
         <div id="result">準備好了嗎？</div>
-        <button onclick="roll()">Roll 一個！</button>
+        <button onclick="roll()">命運！</button>
     </div>
 
     <script>
         function roll() {
-            const places = ["台北", "台中", "台南", "高雄", "花蓮", "宜蘭", "桃園", "新竹"];
+            const places = ["桃園", "臺中", "臺南", "高雄", "花蓮", "宜蘭", "基隆", "新竹","臺東", "雲林", "屏東", "嘉義", "南投", "苗栗", "彰化"];
             const result = document.getElementById('result');
             
             // 增加一點點抽獎閃爍感
